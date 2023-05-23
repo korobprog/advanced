@@ -1,8 +1,4 @@
-import orderByPropserByProps from "./orderByProps";
 import getAttacks from "./getAttacks";
-// Дз 1
-const obj = { name: "мечник", health: 10, level: 2, attack: 80, defence: 40 };
-const order = ["name", "level"];
 
 // Дз 2
 const character = {
@@ -27,9 +23,6 @@ const character = {
     },
   ],
 };
-
-const resultformep = orderByPropserByProps(obj, order); //дз 1
-console.log(resultformep);
 
 const attacks = getAttacks(character); // дз 2
 console.log(attacks);
